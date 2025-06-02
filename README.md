@@ -1,4 +1,4 @@
-Hi ![](https://media.tenor.com/0CpFOKGVaeMAAAAi/hand-waving-hand.gif width="66" height="59")My name is Panuwat Watjara
+Hi ![](https://media.tenor.com/0CpFOKGVaeMAAAAi/hand-waving-hand.gif)My name is Panuwat Watjara
 =======================================================================================================================================
 
 Web developer
