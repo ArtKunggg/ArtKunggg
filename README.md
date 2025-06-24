@@ -16,8 +16,6 @@ There's no dead end as long as we keep searching.
 
 <a href="http://www.github.com/ArtKunggg"><img src="https://github-readme-stats.vercel.app/api?username=ArtKunggg&show_icons=true&hide=&count_private=true&title_color=6366f1&text_color=14b8a6&icon_color=ec4899&bg_color=0f172a&hide_border=true&show_icons=true" alt="ArtKunggg's GitHub stats" /></a>
 
-<a href="http://www.github.com/ArtKunggg"><img src="https://github-readme-streak-stats.herokuapp.com/?user=ArtKunggg&stroke=14b8a6&background=0f172a&ring=6366f1&fire=6366f1&currStreakNum=14b8a6&currStreakLabel=6366f1&sideNums=14b8a6&sideLabels=14b8a6&dates=14b8a6&hide_border=true" /></a>
-
 <a href="https://github.com/ArtKunggg" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ArtKunggg&langs_count=10&title_color=6366f1&text_color=14b8a6&icon_color=ec4899&bg_color=0f172a&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
 
 [![](https://visitcount.itsvg.in/api?id=ArtKunggg&label=Profile%20Views&pretty=true)](https://visitcount.itsvg.in)
