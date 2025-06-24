@@ -4,7 +4,7 @@ Hi <img src="https://media.tenor.com/0CpFOKGVaeMAAAAi/hand-waving-hand.gif" widt
 Web developer
 -------------
 
-I have been practicing web development using HTML, CSS, and JavaScript for one year without any work experience, but I am ready to learn.
+There's no dead end as long as we keep searching.
 
 ### Skills
 
