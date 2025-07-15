@@ -14,8 +14,7 @@ There's no dead end as long as we keep searching.
 
 <b>My GitHub Stats</b>
 
-<a href="http://www.github.com/ArtKunggg"><img src="https://github-readme-stats.vercel.app/api?username=ArtKunggg&show_icons=true&hide=&count_private=true&title_color=6366f1&text_color=14b8a6&icon_color=ec4899&bg_color=0f172a&hide_border=true&show_icons=true" alt="ArtKunggg's GitHub stats" /></a>
-
-<a href="https://github.com/ArtKunggg" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ArtKunggg&langs_count=10&title_color=6366f1&text_color=14b8a6&icon_color=ec4899&bg_color=0f172a&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
+<a href="http://www.github.com/ArtKunggg"><img src="https://github-readme-stats.vercel.app/api?username=ArtKunggg&show_icons=true&hide=&count_private=true&title_color=6366f1&text_color=14b8a6&icon_color=ec4899&bg_color=0f172a&hide_border=true&show_icons=true" alt="ArtKunggg's GitHub stats" 
+href="https://github.com/ArtKunggg" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ArtKunggg&langs_count=10&title_color=6366f1&text_color=14b8a6&icon_color=ec4899&bg_color=0f172a&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages"/></a>
 
 [![](https://visitcount.itsvg.in/api?id=ArtKunggg&label=Profile%20Views&pretty=true)](https://visitcount.itsvg.in)
