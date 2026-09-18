@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" fill="none">
+  <title>Panuwat — ArtKunggg</title>
+  <desc>A navy profile banner with blue and mint accents and a code window.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101B30"/><stop offset="0.6" stop-color="#0B1322"/><stop offset="1" stop-color="#102B32"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="48" y1="0" x2="1152" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5AA9FF"/><stop offset="1" stop-color="#63E6BE"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" stroke="#8AB8E8" stroke-opacity="0.05"/>
+    </pattern>
+  </defs>
+  <rect x="1" y="1" width="1198" height="358" rx="24" fill="url(#background)" stroke="#24384E"/>
+  <rect x="24" y="24" width="1152" height="312" rx="16" fill="url(#grid)"/>
+  <rect x="48" y="40" width="44" height="4" rx="2" fill="url(#accent)"/>
+  <text x="106" y="48" fill="#8AA5BD" font-family="Segoe UI,Arial,sans-serif" font-size="13" letter-spacing="3">ARTKUNGG / PERSONAL PROJECTS</text>
+  <text x="48" y="154" fill="#EDF6FF" font-family="Segoe UI,Arial,sans-serif" font-size="76" font-weight="700" letter-spacing="-3">PANUWAT<tspan fill="#63E6BE">.</tspan></text>
+  <text x="52" y="202" fill="#B2C9DD" font-family="Segoe UI,Arial,sans-serif" font-size="24">Ideas into apps. Curiosity into code.</text>
+  <rect x="50" y="238" width="167" height="35" rx="17.5" fill="#142A45" stroke="#284A70"/>
+  <text x="133.5" y="261" text-anchor="middle" fill="#89BFFF" font-family="Segoe UI,Arial,sans-serif" font-size="14">Web development</text>
+  <rect x="229" y="238" width="126" height="35" rx="17.5" fill="#132D30" stroke="#27514C"/>
+  <text x="292" y="261" text-anchor="middle" fill="#7BE4C7" font-family="Segoe UI,Arial,sans-serif" font-size="14">Python bots</text>
+  <rect x="367" y="238" width="151" height="35" rx="17.5" fill="#15293D" stroke="#2A455F"/>
+  <text x="442.5" y="261" text-anchor="middle" fill="#A9CBE8" font-family="Segoe UI,Arial,sans-serif" font-size="14">AI experiments</text>
+  <path d="M704 86H730M717 73V99M1110 284H1136M1123 271V297" stroke="#40777E" stroke-width="2"/>
+  <rect x="749" y="70" width="377" height="224" rx="15" fill="#08111F" stroke="#2B475C"/>
+  <path d="M750 112H1125" stroke="#23394D"/>
+  <circle cx="772" cy="92" r="4" fill="#5AA9FF"/><circle cx="788" cy="92" r="4" fill="#63E6BE"/><circle cx="804" cy="92" r="4" fill="#40556B"/>
+  <text x="1105" y="97" text-anchor="end" fill="#7794AF" font-family="Consolas,monospace" font-size="12">hello.py</text>
+  <g font-family="Consolas,monospace" font-size="17">
+    <text x="774" y="147" fill="#40586E">01</text><text x="811" y="147" fill="#88BAFF">def <tspan fill="#63E6BE">build</tspan><tspan fill="#CCDCEE">(idea):</tspan></text>
+    <text x="774" y="178" fill="#40586E">02</text><text x="831" y="178" fill="#CCDCEE">learn()</text>
+    <text x="774" y="209" fill="#40586E">03</text><text x="831" y="209" fill="#CCDCEE">create(idea)</text>
+    <text x="774" y="240" fill="#40586E">04</text><text x="831" y="240" fill="#CCDCEE">keep_exploring()</text>
+  </g>
+  <rect x="811" y="257" width="9" height="16" rx="1" fill="#63E6BE"/>
+  <path d="M48 318H1152" stroke="url(#accent)" stroke-opacity="0.45"/>
+</svg>

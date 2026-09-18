@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="112" viewBox="0 0 1200 112" fill="none">
+  <title>Keep searching</title>
+  <rect x="1" y="1" width="1198" height="110" rx="18" fill="#0E1B2B" stroke="#253C50"/>
+  <rect x="30" y="29" width="4" height="54" rx="2" fill="#63E6BE"/>
+  <text x="60" y="42" fill="#75D8C6" font-family="Segoe UI,Arial,sans-serif" font-size="12" letter-spacing="3">A NOTE TO KEEP GOING</text>
+  <text x="60" y="77" fill="#D5E6F4" font-family="Segoe UI,Arial,sans-serif" font-size="24">There's no dead end as long as we keep searching.</text>
+  <text x="1138" y="68" text-anchor="end" fill="#527B98" font-family="Consolas,monospace" font-size="24">&lt;/&gt;</text>
+</svg>

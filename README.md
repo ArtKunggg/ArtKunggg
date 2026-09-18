@@ -1,15 +1,65 @@
-Hi <img src="https://media.tenor.com/0CpFOKGVaeMAAAAi/hand-waving-hand.gif" width="66" height="59"> My name is Panuwat Watjara
-=======================================================================================================================================
-
-Web developer
--------------
-
-There's no dead end as long as we keep searching.
-
-### Skills
-
-<p align="left">
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExenBkNWJycDZjMzB6Z2Z0anhnaTY2a3ltcnZwdmU5cTNldGU0bTQ4diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/ln7z2eWriiQAllfVcn/giphy.gif" width="36" height="36" alt="JavaScript" /></a><a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYm0wbThkdmxzdW1wb2NlZTB1MXNyZDUzN2YyNG5mampsc203dWphcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/XAxylRMCdpbEWUAvr8/giphy.gif" width="36" height="36" alt="HTML5" /></a><a href="https://www.python.org/about/gettingstarted/" target="_blank" rel="noreferrer"><img src="https://i.redd.it/xl5cyhhqmsab1.gif" width="36" height="36" alt="Python" /></a><a href="https://www.w3.org/TR/CSS/#css" target="_blank" rel="noreferrer"><img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnpvZnI5bDU2NHk1Yzg5NXl5dDc1am9uNHI1anQwdXFpNW14bGJzZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/fsEaZldNC8A1PJ3mwp/giphy.gif" width="36" height="36" alt="CSS3" /></a><a href="https://getbootstrap.com/" target="_blank" rel="noreferrer"><img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExem93d2cxY3VtNTUxa3J4N2J0bzZzMzdpbTlxdXhxeWtvOG81ZDRuYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Sr8xDpMwVKOHUWDVRD/giphy.gif" width="36" height="36" alt="Bootstrap" /></a>
+<p align="center">
+  <img src="./assets/header.svg" width="100%" alt="Panuwat — ArtKunggg. Web development, Python bots, and AI experiments." />
 </p>
 
-[![](https://visitcount.itsvg.in/api?id=ArtKunggg&label=Profile%20Views&pretty=true)](https://visitcount.itsvg.in)
+<p align="center">
+  <b>Hi, I'm Panuwat Watjara.</b><br />
+  A web developer exploring apps, automation, and AI through personal projects.
+</p>
+
+<p align="center">
+  <a href="#selected-projects">Selected projects</a> &nbsp; / &nbsp;
+  <a href="#my-toolbox">My toolbox</a> &nbsp; / &nbsp;
+  <a href="https://github.com/ArtKunggg?tab=repositories">All repositories</a>
+</p>
+
+<br />
+
+### Selected projects
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/ArtKunggg/MobileApp">01 &nbsp; WachiApp</a></h3>
+      <p>A mobile app project built with TypeScript.</p>
+      <p><code>TypeScript</code> &nbsp; <code>Mobile</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/ArtKunggg/BotMusicDiscord">02 &nbsp; Discord Music Bot</a></h3>
+      <p>A Python music bot project for Discord.</p>
+      <p><code>Python</code> &nbsp; <code>Discord</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/ArtKunggg/Bot_Ollama">03 &nbsp; Ollama Bot</a></h3>
+      <p>An experimental Q&amp;A bot using Ollama and a database. A work in progress.</p>
+      <p><code>Python</code> &nbsp; <code>Ollama</code> &nbsp; <code>AI</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/ArtKunggg/BotSteamSale">04 &nbsp; BotSteamSale</a></h3>
+      <p>Another Python bot project built for Discord.</p>
+      <p><code>Python</code> &nbsp; <code>Discord</code></p>
+    </td>
+  </tr>
+</table>
+
+<p align="right">
+  <a href="https://github.com/ArtKunggg?tab=repositories">Explore all my projects &rarr;</a>
+</p>
+
+<br />
+
+### My toolbox
+
+<p>Languages and tools across my web, app, and bot projects.</p>
+
+<p>
+  <img src="./assets/toolbox.svg" width="100%" alt="Python, TypeScript, JavaScript, HTML, CSS, and Bootstrap" />
+</p>
+
+<br />
+
+<p align="center">
+  <img src="./assets/footer.svg" width="100%" alt="There's no dead end as long as we keep searching." />
+</p>
