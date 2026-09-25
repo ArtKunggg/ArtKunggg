@@ -70,16 +70,6 @@ Hi! I'm **Panuwat Watjara**, but everyone calls me **Art**. I work as a **progra
 | [**Bot_Ollama**](https://github.com/ArtKunggg/Bot_Ollama) | Q&A bot on a local LLM with Ollama *(in progress)* · บอทถามตอบด้วย AI *(กำลังพัฒนา)* | Python |
 | [**WebScraping**](https://github.com/ArtKunggg/WebScraping) | Pulling data from websites · ดึงข้อมูลจากเว็บไซต์ | Python, HTML |
 
-## 🐍 Contributions · การมีส่วนร่วม
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ArtKunggg/ArtKunggg/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ArtKunggg/ArtKunggg/output/github-snake.svg" />
-    <img alt="A snake eating my contribution graph" src="https://raw.githubusercontent.com/ArtKunggg/ArtKunggg/output/github-snake.svg" />
-  </picture>
-</p>
-
 <br />
 
 <p align="center">
