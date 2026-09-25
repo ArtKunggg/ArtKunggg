@@ -53,6 +53,13 @@ Hi! I'm **Panuwat Watjara**, but everyone calls me **Art**. I work as a **progra
   <img src="https://skillicons.dev/icons?i=linux,ubuntu,windows&theme=dark" alt="Linux, Ubuntu, Windows" />
 </p>
 
+<p align="center">
+  <b>AI tools · เครื่องมือ AI</b><br /><br />
+  <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude" />
+  <img src="https://img.shields.io/badge/ChatGPT-10A37F?style=for-the-badge&logo=openaigym&logoColor=white" alt="ChatGPT" />
+  <img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini" />
+</p>
+
 ## 🚀 Projects · ผลงาน
 
 | Project | About · รายละเอียด | Stack |
