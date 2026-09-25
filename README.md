@@ -40,24 +40,37 @@ Hi! I'm **Panuwat Watjara**, but everyone calls me **Art**. I work as a **progra
 
 <p align="center">
   <b>Languages · ภาษา</b><br /><br />
-  <img src="https://skillicons.dev/icons?i=python,js,ts,html,css,php,dart&theme=dark" alt="Python, JavaScript, TypeScript, HTML, CSS, PHP, Dart" />
+  <a href="https://www.python.org"><img src="https://skillicons.dev/icons?i=python&theme=dark" width="48" alt="Python" title="Python" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://skillicons.dev/icons?i=js&theme=dark" width="48" alt="JavaScript" title="JavaScript" /></a>
+  <a href="https://www.typescriptlang.org"><img src="https://skillicons.dev/icons?i=ts&theme=dark" width="48" alt="TypeScript" title="TypeScript" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://skillicons.dev/icons?i=html&theme=dark" width="48" alt="HTML" title="HTML" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://skillicons.dev/icons?i=css&theme=dark" width="48" alt="CSS" title="CSS" /></a>
+  <a href="https://www.php.net"><img src="https://skillicons.dev/icons?i=php&theme=dark" width="48" alt="PHP" title="PHP" /></a>
+  <a href="https://dart.dev"><img src="https://skillicons.dev/icons?i=dart&theme=dark" width="48" alt="Dart" title="Dart" /></a>
 </p>
 
 <p align="center">
-  <b>Frameworks & tools · เฟรมเวิร์กและเครื่องมือ</b><br /><br />
-  <img src="https://skillicons.dev/icons?i=flutter,bootstrap,git,github,vscode,discord&theme=dark" alt="Flutter, Bootstrap, Git, GitHub, VS Code, Discord" />
+  <b>Frameworks &amp; tools · เฟรมเวิร์กและเครื่องมือ</b><br /><br />
+  <a href="https://flutter.dev"><img src="https://skillicons.dev/icons?i=flutter&theme=dark" width="48" alt="Flutter" title="Flutter" /></a>
+  <a href="https://getbootstrap.com"><img src="https://skillicons.dev/icons?i=bootstrap&theme=dark" width="48" alt="Bootstrap" title="Bootstrap" /></a>
+  <a href="https://git-scm.com"><img src="https://skillicons.dev/icons?i=git&theme=dark" width="48" alt="Git" title="Git" /></a>
+  <a href="https://github.com"><img src="https://skillicons.dev/icons?i=github&theme=dark" width="48" alt="GitHub" title="GitHub" /></a>
+  <a href="https://code.visualstudio.com"><img src="https://skillicons.dev/icons?i=vscode&theme=dark" width="48" alt="VS Code" title="VS Code" /></a>
+  <a href="https://discord.com/developers/docs"><img src="https://skillicons.dev/icons?i=discord&theme=dark" width="48" alt="Discord" title="Discord" /></a>
 </p>
 
 <p align="center">
   <b>Systems · ระบบ</b><br /><br />
-  <img src="https://skillicons.dev/icons?i=linux,ubuntu,windows&theme=dark" alt="Linux, Ubuntu, Windows" />
+  <a href="https://www.kernel.org"><img src="https://skillicons.dev/icons?i=linux&theme=dark" width="48" alt="Linux" title="Linux" /></a>
+  <a href="https://ubuntu.com"><img src="https://skillicons.dev/icons?i=ubuntu&theme=dark" width="48" alt="Ubuntu" title="Ubuntu" /></a>
+  <a href="https://www.microsoft.com/windows"><img src="https://skillicons.dev/icons?i=windows&theme=dark" width="48" alt="Windows" title="Windows" /></a>
 </p>
 
 <p align="center">
   <b>AI tools · เครื่องมือ AI</b><br /><br />
-  <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude" />
-  <img src="https://img.shields.io/badge/ChatGPT-10A37F?style=for-the-badge&logo=openaigym&logoColor=white" alt="ChatGPT" />
-  <img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini" />
+  <a href="https://www.anthropic.com/claude"><img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude" title="Claude" /></a>
+  <a href="https://openai.com/chatgpt"><img src="https://img.shields.io/badge/ChatGPT-10A37F?style=for-the-badge&logo=openaigym&logoColor=white" alt="ChatGPT" title="ChatGPT" /></a>
+  <a href="https://gemini.google.com"><img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini" title="Gemini" /></a>
 </p>
 
 ## 🚀 Projects · ผลงาน
