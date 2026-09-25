@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="320" viewBox="0 0 560 320" fill="none">
+  <title>whoami</title>
+  <desc>An animated terminal printing name, roles and location of Panuwat Watjara (Art).</desc>
+  <style>
+    .mono { font-family: Consolas, SF Mono, Menlo, DejaVu Sans Mono, monospace; font-size: 17px; }
+    .thai { font-family: Leelawadee UI, Noto Sans Thai, Thonburi, Tahoma, sans-serif; font-size: 17px; }
+    .p { fill: #FF6B8B; font-weight: 700; }
+    .c { fill: #EDE9FF; }
+    .o { fill: #A99FDC; }
+  </style>
+  <rect x="1" y="1" width="558" height="318" rx="16" fill="#151026" stroke="#34295E" stroke-width="2"/>
+  <path d="M1 17A16 16 0 0 1 17 1H543A16 16 0 0 1 559 17V44H1Z" fill="#1E1638"/>
+  <circle cx="26" cy="23" r="6" fill="#FF6B8B"/><circle cx="46" cy="23" r="6" fill="#FFB547"/><circle cx="66" cy="23" r="6" fill="#4FD1C5"/>
+  <text x="280" y="28" class="mono" fill="#7E75A8" text-anchor="middle" style="font-size:14px">art@dev: ~</text>
+
+  <!-- Each line fades in at its own time, all fade out together, loop every 10s (SMIL, so it runs even where CSS animation is off). -->
+  <text x="24" y="80" class="mono" opacity="0"><animate attributeName="opacity" dur="10s" repeatCount="indefinite" keyTimes="0;0.03;0.05;0.92;0.96;1" values="0;0;1;1;0;0"/><tspan class="p">$ </tspan><tspan class="c">whoami</tspan></text>
+  <text x="24" y="108" class="mono o" opacity="0"><animate attributeName="opacity" dur="10s" repeatCount="indefinite" keyTimes="0;0.09;0.11;0.92;0.96;1" values="0;0;1;1;0;0"/>Panuwat Watjara (Art)</text>
+  <text x="24" y="136" class="thai o" opacity="0"><animate attributeName="opacity" dur="10s" repeatCount="indefinite" keyTimes="0;0.13;0.15;0.92;0.96;1" values="0;0;1;1;0;0"/>ภานุวัตน์ วัจรา (อาร์ท)</text>
+  <text x="24" y="172" class="mono" opacity="0"><animate attributeName="opacity" dur="10s" repeatCount="indefinite" keyTimes="0;0.22;0.24;0.92;0.96;1" values="0;0;1;1;0;0"/><tspan class="p">$ </tspan><tspan class="c">cat roles.txt</tspan></text>
+  <text x="24" y="200" class="mono" opacity="0"><animate attributeName="opacity" dur="10s" repeatCount="indefinite" keyTimes="0;0.28;0.30;0.92;0.96;1" values="0;0;1;1;0;0"/><tspan fill="#FFB547">› </tspan><tspan class="o">Programmer · Web Developer · IT Support</tspan></text>
+  <text x="24" y="236" class="mono" opacity="0"><animate attributeName="opacity" dur="10s" repeatCount="indefinite" keyTimes="0;0.37;0.39;0.92;0.96;1" values="0;0;1;1;0;0"/><tspan class="p">$ </tspan><tspan class="c">echo $LOCATION</tspan></text>
+  <text x="24" y="264" class="mono o" opacity="0"><animate attributeName="opacity" dur="10s" repeatCount="indefinite" keyTimes="0;0.43;0.45;0.92;0.96;1" values="0;0;1;1;0;0"/>Bangkok, Thailand</text>
+  <g opacity="0">
+    <animate attributeName="opacity" dur="10s" repeatCount="indefinite" keyTimes="0;0.50;0.52;0.92;0.96;1" values="0;0;1;1;0;0"/>
+    <text x="24" y="298" class="mono p">$</text>
+    <rect x="44" y="284" width="10" height="18" fill="#FFB547"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/></rect>
+  </g>
+</svg>

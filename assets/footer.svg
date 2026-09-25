@@ -1,8 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="112" viewBox="0 0 1200 112" fill="none">
-  <title>Keep searching</title>
-  <rect x="1" y="1" width="1198" height="110" rx="18" fill="#0E1B2B" stroke="#253C50"/>
-  <rect x="30" y="29" width="4" height="54" rx="2" fill="#63E6BE"/>
-  <text x="60" y="42" fill="#75D8C6" font-family="Segoe UI,Arial,sans-serif" font-size="12" letter-spacing="3">A NOTE TO KEEP GOING</text>
-  <text x="60" y="77" fill="#D5E6F4" font-family="Segoe UI,Arial,sans-serif" font-size="24">There's no dead end as long as we keep searching.</text>
-  <text x="1138" y="68" text-anchor="end" fill="#527B98" font-family="Consolas,monospace" font-size="24">&lt;/&gt;</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" fill="none">
+  <title>There's no dead end as long as we keep searching.</title>
+  <desc>Animated waves under a quote in English and Thai.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="190" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#120C22"/><stop offset="1" stop-color="#1A1033"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1200" height="190" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="190" fill="url(#bg)"/>
+    <path d="M0 150Q150 125 300 150T600 150T900 150T1200 150T1500 150T1800 150V190H0Z" fill="#8B7CFF" fill-opacity="0.25">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-600 0" dur="9s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0 162Q150 185 300 162T600 162T900 162T1200 162T1500 162T1800 162V190H0Z" fill="#FF6B8B" fill-opacity="0.22">
+      <animateTransform attributeName="transform" type="translate" from="-600 0" to="0 0" dur="13s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <rect x="1" y="1" width="1198" height="188" rx="23" stroke="#34295E" stroke-width="2"/>
+  <text x="600" y="68" fill="#EDE9FF" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="24" font-style="italic" text-anchor="middle">“There's no dead end as long as we keep searching.”</text>
+  <text x="600" y="104" fill="#A99FDC" font-family="Leelawadee UI, Noto Sans Thai, Thonburi, Tahoma, sans-serif" font-size="19" text-anchor="middle">ไม่มีทางตัน ตราบใดที่เรายังไม่หยุดค้นหา</text>
 </svg>

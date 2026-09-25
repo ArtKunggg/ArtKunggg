@@ -1,40 +1,111 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" fill="none">
-  <title>Panuwat — ArtKunggg</title>
-  <desc>A navy profile banner with blue and mint accents and a code window.</desc>
+  <title>Panuwat Watjara (Art)</title>
+  <desc>Animated banner: name in English and Thai, typing roles Programmer, Web Developer and IT Support, and a monitor with code lines.</desc>
   <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#101B30"/><stop offset="0.6" stop-color="#0B1322"/><stop offset="1" stop-color="#102B32"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#120C22"/><stop offset="0.55" stop-color="#1A1033"/><stop offset="1" stop-color="#0C1A2B"/>
     </linearGradient>
-    <linearGradient id="accent" x1="48" y1="0" x2="1152" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#5AA9FF"/><stop offset="1" stop-color="#63E6BE"/>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#FF6B8B"/><stop offset="0.5" stop-color="#FFB547"/><stop offset="1" stop-color="#8B7CFF"/>
     </linearGradient>
-    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M36 0H0V36" stroke="#8AB8E8" stroke-opacity="0.05"/>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#B9A8FF" stroke-opacity="0.05"/>
     </pattern>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter>
+    <clipPath id="frame"><rect width="1200" height="360" rx="24"/></clipPath>
+    <clipPath id="r1"><rect x="84" y="270" height="40" width="0"><animate attributeName="width" dur="9s" repeatCount="indefinite" keyTimes="0;0.0889;0.2667;0.3222;1" values="0;155;155;0;0"/></rect></clipPath>
+    <clipPath id="r2"><rect x="84" y="270" height="40" width="0"><animate attributeName="width" dur="9s" repeatCount="indefinite" keyTimes="0;0.3333;0.4222;0.6;0.6556;1" values="0;0;201;201;0;0"/></rect></clipPath>
+    <clipPath id="r3"><rect x="84" y="270" height="40" width="0"><animate attributeName="width" dur="9s" repeatCount="indefinite" keyTimes="0;0.6667;0.7556;0.9333;0.9889;1" values="0;0;155;155;0;0"/></rect></clipPath>
   </defs>
-  <rect x="1" y="1" width="1198" height="358" rx="24" fill="url(#background)" stroke="#24384E"/>
-  <rect x="24" y="24" width="1152" height="312" rx="16" fill="url(#grid)"/>
-  <rect x="48" y="40" width="44" height="4" rx="2" fill="url(#accent)"/>
-  <text x="106" y="48" fill="#8AA5BD" font-family="Segoe UI,Arial,sans-serif" font-size="13" letter-spacing="3">ARTKUNGG / PERSONAL PROJECTS</text>
-  <text x="48" y="154" fill="#EDF6FF" font-family="Segoe UI,Arial,sans-serif" font-size="76" font-weight="700" letter-spacing="-3">PANUWAT<tspan fill="#63E6BE">.</tspan></text>
-  <text x="52" y="202" fill="#B2C9DD" font-family="Segoe UI,Arial,sans-serif" font-size="24">Ideas into apps. Curiosity into code.</text>
-  <rect x="50" y="238" width="167" height="35" rx="17.5" fill="#142A45" stroke="#284A70"/>
-  <text x="133.5" y="261" text-anchor="middle" fill="#89BFFF" font-family="Segoe UI,Arial,sans-serif" font-size="14">Web development</text>
-  <rect x="229" y="238" width="126" height="35" rx="17.5" fill="#132D30" stroke="#27514C"/>
-  <text x="292" y="261" text-anchor="middle" fill="#7BE4C7" font-family="Segoe UI,Arial,sans-serif" font-size="14">Python bots</text>
-  <rect x="367" y="238" width="151" height="35" rx="17.5" fill="#15293D" stroke="#2A455F"/>
-  <text x="442.5" y="261" text-anchor="middle" fill="#A9CBE8" font-family="Segoe UI,Arial,sans-serif" font-size="14">AI experiments</text>
-  <path d="M704 86H730M717 73V99M1110 284H1136M1123 271V297" stroke="#40777E" stroke-width="2"/>
-  <rect x="749" y="70" width="377" height="224" rx="15" fill="#08111F" stroke="#2B475C"/>
-  <path d="M750 112H1125" stroke="#23394D"/>
-  <circle cx="772" cy="92" r="4" fill="#5AA9FF"/><circle cx="788" cy="92" r="4" fill="#63E6BE"/><circle cx="804" cy="92" r="4" fill="#40556B"/>
-  <text x="1105" y="97" text-anchor="end" fill="#7794AF" font-family="Consolas,monospace" font-size="12">hello.py</text>
-  <g font-family="Consolas,monospace" font-size="17">
-    <text x="774" y="147" fill="#40586E">01</text><text x="811" y="147" fill="#88BAFF">def <tspan fill="#63E6BE">build</tspan><tspan fill="#CCDCEE">(idea):</tspan></text>
-    <text x="774" y="178" fill="#40586E">02</text><text x="831" y="178" fill="#CCDCEE">learn()</text>
-    <text x="774" y="209" fill="#40586E">03</text><text x="831" y="209" fill="#CCDCEE">create(idea)</text>
-    <text x="774" y="240" fill="#40586E">04</text><text x="831" y="240" fill="#CCDCEE">keep_exploring()</text>
+  <style>
+    .sans { font-family: Segoe UI, Helvetica Neue, Arial, sans-serif; }
+    .thai { font-family: Leelawadee UI, Noto Sans Thai, Thonburi, Tahoma, sans-serif; }
+    .mono { font-family: Consolas, SF Mono, Menlo, DejaVu Sans Mono, monospace; }
+    .star { animation: twinkle 3s ease-in-out infinite; }
+    @keyframes twinkle { 0%, 100% { opacity: 0.15; } 50% { opacity: 0.9; } }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="360" fill="url(#bg)"/>
+    <rect width="1200" height="360" fill="url(#grid)"/>
+    <circle cx="980" cy="70" r="170" fill="#8B7CFF" opacity="0.28" filter="url(#blur)">
+      <animate attributeName="cx" values="980;900;980" dur="14s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="160" cy="330" r="150" fill="#FF6B8B" opacity="0.2" filter="url(#blur)">
+      <animate attributeName="cx" values="160;260;160" dur="12s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle class="star" cx="640" cy="48" r="2" fill="#fff"/>
+    <circle class="star" cx="720" cy="310" r="1.5" fill="#fff" style="animation-delay:.6s"/>
+    <circle class="star" cx="560" cy="120" r="1.5" fill="#FFB547" style="animation-delay:1.2s"/>
+    <circle class="star" cx="1160" cy="320" r="2" fill="#fff" style="animation-delay:1.8s"/>
+    <circle class="star" cx="760" cy="40" r="1.5" fill="#8B7CFF" style="animation-delay:.3s"/>
+    <circle class="star" cx="420" cy="36" r="1.5" fill="#fff" style="animation-delay:2.1s"/>
+    <circle class="star" cx="1170" cy="170" r="1.5" fill="#FF6B8B" style="animation-delay:.9s"/>
+    <circle class="star" cx="690" cy="200" r="1.5" fill="#fff" style="animation-delay:2.4s"/>
   </g>
-  <rect x="811" y="257" width="9" height="16" rx="1" fill="#63E6BE"/>
-  <path d="M48 318H1152" stroke="url(#accent)" stroke-opacity="0.45"/>
+  <rect x="1" y="1" width="1198" height="358" rx="23" stroke="#34295E" stroke-width="2"/>
+
+  <!-- intro -->
+  <circle cx="62" cy="58" r="5" fill="#FF6B8B">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+  <text x="76" y="63" class="sans" fill="#A99FDC" font-size="14" letter-spacing="3">HELLO WORLD</text>
+  <text x="212" y="63" class="thai" fill="#A99FDC" font-size="14">·   สวัสดีครับ</text>
+
+  <text x="56" y="116" class="sans" fill="#D9D3FF" font-size="28">Hi, I'm Art</text>
+
+  <text x="54" y="184" class="sans" fill="#FFFFFF" font-size="64" font-weight="700" letter-spacing="-1">Panuwat Watjara</text>
+  <text x="56" y="228" class="thai" fill="#D9D3FF" font-size="28">ภานุวัตน์ วัจรา  ·  อาร์ท</text>
+  <rect x="56" y="246" height="4" rx="2" width="120" fill="url(#accent)">
+    <animate attributeName="width" values="80;180;80" dur="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- typing roles -->
+  <text x="56" y="300" class="mono" fill="#FF6B8B" font-size="28" font-weight="700">$</text>
+  <g clip-path="url(#r1)"><text x="84" y="300" class="mono" fill="#FFB547" font-size="28" textLength="155" lengthAdjust="spacingAndGlyphs">Programmer</text></g>
+  <g clip-path="url(#r2)"><text x="84" y="300" class="mono" fill="#FFB547" font-size="28" textLength="201" lengthAdjust="spacingAndGlyphs">Web Developer</text></g>
+  <g clip-path="url(#r3)"><text x="84" y="300" class="mono" fill="#FFB547" font-size="28" textLength="155" lengthAdjust="spacingAndGlyphs">IT Support</text></g>
+  <rect x="88" y="277" width="13" height="28" rx="2" fill="#FFB547">
+    <animate attributeName="x" dur="9s" repeatCount="indefinite" keyTimes="0;0.0889;0.2667;0.3222;0.3333;0.4222;0.6;0.6556;0.6667;0.7556;0.9333;0.9889;1" values="88;243;243;88;88;289;289;88;88;243;243;88;88"/>
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="0.9s" repeatCount="indefinite"/>
+  </rect>
+  <g class="thai" font-size="17" fill="#A99FDC">
+    <text x="84" y="334" opacity="0">โปรแกรมเมอร์<animate attributeName="opacity" dur="9s" repeatCount="indefinite" keyTimes="0;0.0889;0.2667;0.3222;1" values="0;1;1;0;0"/></text>
+    <text x="84" y="334" opacity="0">นักพัฒนาเว็บ<animate attributeName="opacity" dur="9s" repeatCount="indefinite" keyTimes="0;0.3333;0.4222;0.6;0.6556;1" values="0;0;1;1;0;0"/></text>
+    <text x="84" y="334" opacity="0">ไอทีซัพพอร์ต<animate attributeName="opacity" dur="9s" repeatCount="indefinite" keyTimes="0;0.6667;0.7556;0.9333;0.9889;1" values="0;0;1;1;0;0"/></text>
+  </g>
+
+  <!-- monitor -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="6s" repeatCount="indefinite"/>
+    <rect x="800" y="72" width="330" height="200" rx="14" fill="#1C1535" stroke="#3B2F6B" stroke-width="2"/>
+    <circle cx="822" cy="92" r="5" fill="#FF6B8B"/><circle cx="840" cy="92" r="5" fill="#FFB547"/><circle cx="858" cy="92" r="5" fill="#4FD1C5"/>
+    <line x1="800" y1="108" x2="1130" y2="108" stroke="#3B2F6B" stroke-width="2"/>
+    <g>
+      <rect x="822" y="124" height="8" rx="4" width="0" fill="#FF6B8B"><animate attributeName="width" values="0;110;110;0" keyTimes="0;0.25;0.9;1" dur="7s" begin="0s" repeatCount="indefinite"/></rect>
+      <rect x="846" y="146" height="8" rx="4" width="0" fill="#8B7CFF"><animate attributeName="width" values="0;170;170;0" keyTimes="0;0.25;0.9;1" dur="7s" begin="0.5s" repeatCount="indefinite"/></rect>
+      <rect x="870" y="168" height="8" rx="4" width="0" fill="#4FD1C5"><animate attributeName="width" values="0;130;130;0" keyTimes="0;0.25;0.9;1" dur="7s" begin="1s" repeatCount="indefinite"/></rect>
+      <rect x="870" y="190" height="8" rx="4" width="0" fill="#FFB547"><animate attributeName="width" values="0;190;190;0" keyTimes="0;0.25;0.9;1" dur="7s" begin="1.5s" repeatCount="indefinite"/></rect>
+      <rect x="846" y="212" height="8" rx="4" width="0" fill="#8B7CFF"><animate attributeName="width" values="0;90;90;0" keyTimes="0;0.25;0.9;1" dur="7s" begin="2s" repeatCount="indefinite"/></rect>
+      <rect x="822" y="234" height="8" rx="4" width="0" fill="#FF6B8B"><animate attributeName="width" values="0;50;50;0" keyTimes="0;0.25;0.9;1" dur="7s" begin="2.5s" repeatCount="indefinite"/></rect>
+    </g>
+    <rect x="945" y="272" width="40" height="22" fill="#2A2050"/>
+    <rect x="905" y="292" width="120" height="8" rx="4" fill="#3B2F6B"/>
+  </g>
+
+  <!-- gear -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="0 1112 76" to="360 1112 76" dur="10s" repeatCount="indefinite"/>
+    <circle cx="1112" cy="76" r="27" stroke="#FFB547" stroke-width="10" stroke-dasharray="8 8.96"/>
+    <circle cx="1112" cy="76" r="23" fill="#FFB547"/>
+    <circle cx="1112" cy="76" r="9" fill="#1A1033"/>
+  </g>
+
+  <!-- code badge -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -10;0 0" dur="3s" repeatCount="indefinite"/>
+    <rect x="752" y="222" width="96" height="46" rx="12" fill="#FF6B8B"/>
+    <text x="800" y="253" class="mono" fill="#FFFFFF" font-size="22" font-weight="700" text-anchor="middle">&lt;/&gt;</text>
+  </g>
 </svg>

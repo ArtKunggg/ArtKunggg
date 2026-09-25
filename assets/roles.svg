@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" fill="none">
+  <title>What I do</title>
+  <desc>Three cards: Programmer, Web Developer and IT Support, each with a small animated icon.</desc>
+  <style>
+    .sans { font-family: Segoe UI, Helvetica Neue, Arial, sans-serif; }
+    .thai { font-family: Leelawadee UI, Noto Sans Thai, Thonburi, Tahoma, sans-serif; }
+    .mono { font-family: Consolas, SF Mono, Menlo, DejaVu Sans Mono, monospace; }
+    .card { fill: #151026; stroke: #34295E; stroke-width: 2; }
+    .t { fill: #FFFFFF; font-size: 26px; font-weight: 700; }
+    .d { fill: #A99FDC; font-size: 15px; }
+    .n { fill: #FFFFFF; opacity: 0.08; font-size: 56px; font-weight: 800; }
+  </style>
+
+  <!-- Programmer -->
+  <rect class="card" x="1" y="1" width="368" height="228" rx="20"/>
+  <rect x="1" y="1" width="368" height="5" rx="2.5" fill="#FF6B8B"/>
+  <text x="344" y="72" class="sans n" text-anchor="end">01</text>
+  <rect x="28" y="30" width="72" height="72" rx="16" fill="#FF6B8B" fill-opacity="0.14"/>
+  <text x="64" y="76" class="mono" fill="#FF6B8B" font-size="30" font-weight="700" text-anchor="middle">{ }</text>
+  <rect x="61" y="56" width="4" height="24" fill="#FFB547"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/></rect>
+  <text x="28" y="150" class="sans t">Programmer</text>
+  <text x="28" y="178" class="thai" fill="#FF6B8B" font-size="18">โปรแกรมเมอร์</text>
+  <text x="28" y="206" class="sans d">Python bots, automation &amp; tools</text>
+
+  <!-- Web Developer -->
+  <rect class="card" x="416" y="1" width="368" height="228" rx="20"/>
+  <rect x="416" y="1" width="368" height="5" rx="2.5" fill="#8B7CFF"/>
+  <text x="759" y="72" class="sans n" text-anchor="end">02</text>
+  <rect x="443" y="30" width="72" height="72" rx="16" fill="#8B7CFF" fill-opacity="0.16"/>
+  <rect x="455" y="44" width="48" height="42" rx="6" stroke="#8B7CFF" stroke-width="3"/>
+  <line x1="455" y1="54" x2="503" y2="54" stroke="#8B7CFF" stroke-width="3"/>
+  <rect x="461" y="60" height="4" rx="2" width="0" fill="#FFB547"><animate attributeName="width" values="0;36;36;0" keyTimes="0;0.6;0.9;1" dur="2.4s" repeatCount="indefinite"/></rect>
+  <rect x="461" y="69" width="16" height="12" rx="2" fill="#8B7CFF" fill-opacity="0.7"/>
+  <rect x="481" y="69" width="16" height="4" rx="2" fill="#8B7CFF" fill-opacity="0.7"/>
+  <rect x="481" y="77" width="11" height="4" rx="2" fill="#8B7CFF" fill-opacity="0.7"/>
+  <text x="443" y="150" class="sans t">Web Developer</text>
+  <text x="443" y="178" class="thai" fill="#8B7CFF" font-size="18">นักพัฒนาเว็บ</text>
+  <text x="443" y="206" class="sans d">Web apps from front-end to back-end</text>
+
+  <!-- IT Support -->
+  <rect class="card" x="831" y="1" width="368" height="228" rx="20"/>
+  <rect x="831" y="1" width="368" height="5" rx="2.5" fill="#4FD1C5"/>
+  <text x="1174" y="72" class="sans n" text-anchor="end">03</text>
+  <rect x="858" y="30" width="72" height="72" rx="16" fill="#4FD1C5" fill-opacity="0.14"/>
+  <rect x="870" y="44" width="48" height="18" rx="4" stroke="#4FD1C5" stroke-width="3"/>
+  <rect x="870" y="70" width="48" height="18" rx="4" stroke="#4FD1C5" stroke-width="3"/>
+  <line x1="877" y1="53" x2="895" y2="53" stroke="#4FD1C5" stroke-width="3" stroke-linecap="round"/>
+  <line x1="877" y1="79" x2="895" y2="79" stroke="#4FD1C5" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="909" cy="53" r="3.5" fill="#63E6A0"><animate attributeName="opacity" values="1;0.2;1" dur="1.2s" repeatCount="indefinite"/></circle>
+  <circle cx="909" cy="79" r="3.5" fill="#FFB547"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.2s" repeatCount="indefinite"/></circle>
+  <text x="858" y="150" class="sans t">IT Support</text>
+  <text x="858" y="178" class="thai" fill="#4FD1C5" font-size="18">ไอทีซัพพอร์ต</text>
+  <text x="858" y="206" class="sans d">Networks, servers &amp; helpdesk</text>
+</svg>
